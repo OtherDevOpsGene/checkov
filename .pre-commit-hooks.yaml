@@ -10,6 +10,6 @@
     language: python
     pass_filenames: false
     always_run: false
-    files: \.tf$
+    files: \.(tf|yaml|yml)$
     exclude: \.+.terraform\/.*$
     require_serial: true
